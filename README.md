@@ -9,10 +9,10 @@
 6. CI CD 
 7. Deli
 
-### Requirement - (15mins)
+### Requirement 
 - Descripe about the requirement, Domain areas, genera need, Idea
 
-### Scoping - (90mins)
+### Scoping 
 - Process of Discovery & Framing (D&F)
 
 ### Usecase 
