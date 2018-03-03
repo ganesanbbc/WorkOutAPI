@@ -1,5 +1,14 @@
-# WorkOutAPI
 
+
+# FSD
+## WorkOutAPI
+### Requirement
+### Requirement Scoping
+### Usecase - Gherkin Script
+### Estimation 
+### Implementation By TDD
+### CI CD 
+### Deployment
 
 # Scoping - (90mins)
 1. Introduction - 15m 
@@ -11,15 +20,25 @@
 7. Techincal Goals - 10m - Non Functional Requirement
 8. Risk - 5m
 
-
-
 ### Introduction - 15m 
-- This process helps us to identify the domain model, business context, non functional requirement and risk. 
-
+  - This process helps us to identify the domain model, business context, non functional requirement and risk. 
 ### Problem - 15m
+  - List all the problem statements 
+  - Rating & Ranking top three problems from the list
 ### Current Solution - 15m
+  - List all current solution for the each problem
 ### Tweet - 5m
+  - Make a single statement Developing so on solution so that getting benifit with ... and ... and ... 
 ### User - 15m
+  - Identify the users - 4 Section 
+    1. statement if user has the solution
+    2. why he/she need the solution
+    3. current problems 
+    4. What kind of user
 ### Business Goals - 10m - Business needs
+  - Business goals 
 ### Techincal Goals - 10m - Non Functional Requirement
+  - Non- functioal factors
 ### Risk - 5m
+  - Risks to fail the project
+
