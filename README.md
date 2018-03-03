@@ -1,14 +1,16 @@
 
 
 # FSD
-## WorkOutAPI
-### Requirement
-### Requirement Scoping
-### Usecase - Gherkin Script
-### Estimation 
-### Implementation By TDD
-### CI CD 
-### Deployment
+1. Requirement
+2. Scoping
+3. Usecase - Gherkin Script
+4. Estimation 
+5. Implementation By TDD
+6. CI CD 
+7. Deployment
+
+# Requirement - (15mins)
+- Descripe about the requirement, Domain areas, genera need, Idea
 
 # Scoping - (90mins)
 1. Introduction - 15m 
