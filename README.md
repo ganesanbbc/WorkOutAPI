@@ -32,3 +32,5 @@
 ### Deployment
 - Push the app into the cloud
 
+*Note: Check the Wiki which contains more information. 
+
