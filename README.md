@@ -7,7 +7,7 @@
 4. Process & Estimation 
 5. Implementation By TDD
 6. CI CD 
-7. Deli
+7. Deployment
 
 ### Requirement 
 - Descripe about the requirement, Domain areas, genera need, Idea
