@@ -1,6 +1,6 @@
 
 
-# FSD
+# FullStackDevelopment - Java Stream
 1. Requirement
 2. Scoping
 3. Usecase - Gherkin Script
