@@ -1,0 +1,30 @@
+swagger: "2.0"
+info:
+  version:
+  title: "Fraud Assessment"
+  description: "Fraud Assessment"
+basePath:
+paths:
+  /FraudAssessment:
+    post:
+      summary: "Demo"
+      operationId: "Sample"
+      tags:
+        - "Fraud Assessment"
+      parameters:
+        - name:
+          in: body
+          required: true
+          description: "Contains Fraud Data"
+          schema:
+            $ref: '#/definitions/Model'
+      responses:
+        200:
+          description: "Get 200 Response"
+        400:
+          description: "Get 400 Response"
+definitions:
+  Model:
+
+
+
