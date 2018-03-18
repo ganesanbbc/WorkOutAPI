@@ -50,7 +50,7 @@ public class CustomerServiceTest {
 
     @Test
     public void thatRespondListOfCustomers() {
-        List<UserInfo> customerList = new ArrayList<>();
+        List<UserInfo> customerList = new ArrayList();
         customerList.add(new UserInfo("Test UserInfo", ""));
 //        Mockito.when(customerDao.findAll()).thenReturn(customerList);
 

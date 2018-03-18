@@ -28,6 +28,7 @@ import org.springframework.test.web.servlet.ResultMatcher;
 import org.springframework.test.web.servlet.setup.MockMvcBuilders;
 import org.springframework.web.context.WebApplicationContext;
 
+import static org.junit.Assert.assertTrue;
 import static org.mockito.BDDMockito.given;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.content;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
@@ -39,7 +40,7 @@ import static org.springframework.test.web.servlet.request.MockMvcRequestBuilder
 @ContextConfiguration(classes = UserInfoApplication.class)
 @SpringBootTest
 @FixMethodOrder(MethodSorters.NAME_ASCENDING)
-public class CustomerControllerIntegrationTest {
+public class ITCustomerControllerIntegrationTest {
 
     public static final String CONTENT_TYPE = "Content-type";
     public static final ResultMatcher OK = status().isOk();
@@ -85,5 +86,10 @@ public class CustomerControllerIntegrationTest {
 
     }
 
+
+    @Test
+    public void unitTest1(){
+        assertTrue(true);
+    }
 
 }
