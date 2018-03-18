@@ -18,9 +18,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import static org.hamcrest.CoreMatchers.is;
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertNotEquals;
-import static org.junit.Assert.assertThat;
+import static org.junit.Assert.*;
 
 /**
  * Created by ganesanns on 04/08/17.
@@ -58,6 +56,11 @@ public class CustomerServiceTest {
 
         List<UserInfo> actualCustomerList = customerService.readAllUsers();
         assertThat(actualCustomerList.size(), is(customerList.size()));
+    }
+
+    @Test
+    public void unitTest1(){
+        assertTrue(true);
     }
 
 }
