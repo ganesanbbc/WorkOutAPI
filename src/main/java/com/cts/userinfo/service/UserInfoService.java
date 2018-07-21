@@ -5,10 +5,12 @@ import com.cts.userinfo.vo.UserInfo;
 
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Example;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
 
 @Service
 public class UserInfoService implements IUserInfoService {
@@ -33,16 +35,17 @@ public class UserInfoService implements IUserInfoService {
     }
 
     @Override
-    public UserInfo updateUserInfo(long userId, UserInfo userInfo) {
-        UserInfo oldUserinfo = dao.findOne(userId);
-        BeanUtils.copyProperties(userInfo, oldUserinfo);
+    public UserInfo updateUserInfo(Long userId, UserInfo userInfo) {
+
+//        Optional<UserInfo> oldUserinfo = dao.findOne(userId);
+        BeanUtils.copyProperties(userInfo, dao.findOne(userId));
         return dao.saveAndFlush(userInfo);
     }
 
     @Override
-    public boolean deleteUserInfo(long id) {
-        UserInfo userinfo = dao.findOne(id);
-        dao.delete(userinfo);
+    public boolean deleteUserInfo(Long userId) {
+//        Optional<UserInfo> oldUserinfo = dao.findById(userId);
+        dao.delete(dao.findOne(userId));
         return true;
     }
 }

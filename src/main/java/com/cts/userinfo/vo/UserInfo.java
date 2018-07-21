@@ -17,7 +17,7 @@ public class UserInfo {
     @GeneratedValue(strategy = GenerationType.AUTO)
     @SerializedName("id")
     @Expose
-    private Integer id;
+    private Long id;
     @SerializedName("userId")
     @Expose
     private String userId;
@@ -35,11 +35,15 @@ public class UserInfo {
     public UserInfo() {
     }
 
-    public Integer getId() {
+    public UserInfo(Long userId) {
+        this.id =  userId;
+    }
+
+    public Long getId() {
         return id;
     }
 
-    public void setId(Integer id) {
+    public void setId(Long id) {
         this.id = id;
     }
 

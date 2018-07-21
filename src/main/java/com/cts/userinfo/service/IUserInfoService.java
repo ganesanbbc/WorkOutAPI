@@ -11,8 +11,8 @@ public interface IUserInfoService {
 
     List<UserInfo> readAllUsers();
 
-    UserInfo updateUserInfo(long userId, UserInfo customer);
+    UserInfo updateUserInfo(Long userId, UserInfo customer);
 
-    boolean deleteUserInfo(long id);
+    boolean deleteUserInfo(Long id);
 
 }
